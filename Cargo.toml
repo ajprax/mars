@@ -1,0 +1,20 @@
+[package]
+name = "mars"
+version = "0.1.0"
+authors = ["Aaron Feldstein <ajprax@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+find_folder = "0.3.0"
+fps_counter = "1.0.0"
+lazy_static = "1.3.0"
+piston = "0.48.0"
+piston-texture = "0.6.0"
+piston2d-graphics = "0.32.0"
+piston2d-opengl_graphics = "0.65.0"
+pistoncore-glutin_window = "0.62.1"
+rand = "0.6"
+rayon = "1.1.0"
+rodio = "0.9.0"
